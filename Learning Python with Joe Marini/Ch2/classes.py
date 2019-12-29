@@ -1,7 +1,7 @@
-# Example file for working with classes
-# =======================================
+# Working with classes
+# =====================
 
-# Class Cars
+# Class 1 
 class Cars():
   def method1(self):
     print("This is Cars method 1")
@@ -10,21 +10,22 @@ class Cars():
     print("This is Cars method 2", someString)
 
 
-# Class superCars
+# Class 2
 class superCars(Cars):
   def method1(self):
-    print("This is Supercars method1")
+    print("This is superCars method 1")
 
-  # ...method2 is inherited
+  # Method2 is inherited
+
 
 def main():
-  bmw = Cars()
-  bmw.method1()
-  bmw.method2('Vroom!')
+  polo = Cars()
+  polo.method1()
+  polo.method2('I am a polo. Vroom!')
 
-  mini = superCars()
-  mini.method1()
-  mini.method2('Vroom squared. Inherited method 2')
+  ferrari = superCars()
+  ferrari.method1()
+  ferrari.method2('I am a ferrari. Vroom squared!')
 
 if __name__ == "__main__":
   main()

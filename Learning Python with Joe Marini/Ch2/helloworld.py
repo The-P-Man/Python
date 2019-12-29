@@ -1,10 +1,10 @@
-# Example file for helloworld
+# Hello World
+
 def main():
   '''This function prints "Hello world!"'''
   print ("Hello, World!")
     
-    
-  # Print The Times Tables from 1 to 10
+  # Print The Times Tables up to 10
   rng = range(1, 11) 
   
   print()
