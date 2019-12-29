@@ -17,12 +17,12 @@ fig = plt.figure('Asteroidz')
 # Initialize the image
 im = plt.imshow(np.random.randint(3, size=(8, 8)), animated=True)
 
-i = 1
+# i = 1
 def update(*args):
     '''Returns an update of the diaplayed image'''
-    global i
-    i *= 2
-    arr = np.random.randint(i, size=(8, 8))
+    # global i
+    # i *= 2
+    arr = np.random.randint(2, size=(8, 8))
     im.set_array(arr)
     return im,
 
